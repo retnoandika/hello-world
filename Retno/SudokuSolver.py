@@ -1,14 +1,14 @@
 def find_next_empty(puzzle):
-    # finds the nextm col on the puzzle that's not filled yet ---> reo with -1
-    # return rowm, col tuple (or (Nonem None) if there is none)
+    # finds the next col on the puzzle that's not filled yet ---> read with -1
+    # return row, col tuple (or (None, None) if there is none)
 
     # keep in mind that we are using 0-8 for out indices
     for r in range(9):
-        for c in range(9): # range(9)  is 0, 1, 2, ... 8
+        for c in range(9): # range(9) is 0, 1, 2, ... 8
             if puzzle[r][c] == -1:
                 return r,c
 
-    return None, None # if no  space in the puzzle are empty (-1)
+    return None, None # if no space in the puzzle are empty (-1)
 
 def is_valid(puzzle, guess, row, col):
     # figures out whether the guess at the row/col of the puzzle is a valid guess
