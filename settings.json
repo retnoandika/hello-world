@@ -1,0 +1,12 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.autofetch": true,
+    "explorer.confirmDelete": false,
+    "editor.fontSize": 16,
+    "window.zoomLevel": 0,
+    "terminal.integrated.fontSize": 16,
+    "workbench.colorTheme": "Noctis Minimus",
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "git.confirmSync": true
+}
